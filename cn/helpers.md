@@ -265,13 +265,13 @@ array_first的第三个参数为该操作指定默认返回值，若匿名函数
 
 ### trans
 
-Translate a given language line. Alias of `Lang::get`.
+转换一条语句。与 `Lang::get`<a href="http://www.golaravel.com/docs/localization.html"></a> 作用相同。
 
 	$value = trans('validation.required'):
 
 ### trans_choice
 
-Tranlate a given language line with inflection. Alias of `Lang::choice`.
+选择性的使用单复数形式来转化一条语句。与 `Lang::choice`作用相同。
 
 	$value = trans_choice('foo.bar', $count);
 
